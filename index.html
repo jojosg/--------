@@ -1,43 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Google</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
-    <div class="box-normal">
-      <div class="box">Box 1</div>
-      <div class="box green">Box 2</div>
-      <div class="box blue">Box 3</div>
+    <div class="navBar">
+      <div class="leftBar">
+      <a href="#"class="navItem">네이버 정보</a>
+      <a href="#"class="navItem">스토어</a>
     </div>
-    <div class="box-special">
-      <div class="box">Box 1-1</div>
-      <div class="box green">Box 2-1</div>
-      <div class="box blue">Box 3-1</div>
+    <div class="rightBar">
+      <a href="#" class="navItem">Mail</a>
+      <a href="#" class="navItem">이미지</a>
+      <i class="fas fa-bars"></i>
+      </div>
     </div>
-    <div class="challenge2">
-      <h1>HTML Tutorial</h1>
-      <p class="sub-header">
-        HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to
-        learn - You will enjoy it!
-      </p>
-      <p>
-        The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in
-        a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages
-        such as JavaScript. ... HTML elements are the building blocks of HTML pages.
-      </p>
-      <h1>CSS Tutorial</h1>
-      <p class="sub-header">
-        CSS is the language we use to style an HTML document.CSS describes how HTML elements should be displayed.This
-        tutorial will teach you CSS from basic to advanced.
-      </p>
-      <p>
-        Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document
-        written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML
-        and JavaScript.
-      </p>
+
+    <div class="main">
+      
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Naver_Logotype.svg/2560px-Naver_Logotype.svg.png"
+        width="272"
+        class="naverImg"
+      />
+
+
+      <div class="inputArea">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" class="inputBox" />
+        <i class="fas fa-microphone mic-icon"></i>
+      </div>
+      <div class="buttonArea">
+        <button class="button-style">네이버 검색</button>
+        <button class="button-style">I'm feeling lucky</button>
+      </div>
+      <div class="languageArea">
+        Naver offered in:
+        <a href="#" class="language">한국어</a>
+        <a href="#" class="language">베트남어</a>
+        <a href="#" class="language">프랑스어<a>
+        <a href="#" class="language">중국어</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="firstLine">대한민국</div>
+
+      <div class="secondLine">
+        <span>
+          <a href="#">광고</a>
+          <a href="#">비즈니스</a>
+          <a href="#">검색의 원리</a>
+        </span>
+
+        <span class="second-line-second">
+          <a href="#">개인정보처리방침</a>
+          <a href="#">약관</a>
+          <a href="#">설정</a>
+        </span>
+      </div>
     </div>
   </body>
 </html>
